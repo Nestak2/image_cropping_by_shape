@@ -24,6 +24,10 @@ y0, y1 = 0.1, 0.9
 
 There are more parameters that the user can adjust in the preamble, but the default ones should work in most cases of images taken with smartphones. 
 
+## Necessary packages:
+
+
+
 ## Authours:
 Created at the i-sense research group in London. Big parts of the code were taken from templates by Adrian Rosenbrock and from the free software OpenNoteScanner (see references below). 
 
