@@ -25,7 +25,15 @@ y0, y1 = 0.1, 0.9
 There are more parameters that the user can adjust in the preamble, but the default ones should work in most cases of images taken with smartphones. 
 
 ## Necessary packages:
+numpy: version 1.15.2
 
+argparse: version 1.1
+
+cv2: version 4.0.0
+
+imutils: version 0.5.2
+
+shutil: version ?
 
 
 ## Authours:
