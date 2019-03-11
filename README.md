@@ -1,7 +1,15 @@
 # image_cropping_by_shape
 A script for image cropping by detection of a particular shape
 
+1|2
+-|-
+<img src="tray1_marked.jpg" alt="Drawing" width="420"/> | <img src="AOINEW_tray1.jpg" alt="Drawing" width="150"/>
+
 The script is intended to do precise cropping of objects in images, correcting for misalignment and rotation of the objects, as well as doing a perspective transformation of the images. It might be of help for people preprocessing images for training of neural networks. 
+
+1|2|3|4|5
+-|-|-|-|- 
+<img src="tray2.jpg" alt="Drawing" width="420"/> | <img src="small_tray2.jpg" alt="Drawing" width="150"/> | <img src="large_tray2.jpg" alt="Drawing" width="150"/> | <img src="AOIsmall_tray2.jpg" alt="Drawing" width="50"/>| <img src="AOItray2.jpg" alt="Drawing" width="50"/>
 
 ## Methodology:
 The script works by detecting 4 squares, that are indicating the location of an object of interest and allow the provided image to be cropped around the object of interest. For this to work, the user has to use a rectangular tray having a square in each of its corners and the user has to place his object of interest inside this tray. A tray template is also provided here, it can be printed out and used.
