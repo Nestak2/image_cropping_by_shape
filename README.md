@@ -47,7 +47,7 @@ shutil: version ?
 
 
 ## Authours:
-Created at London Cneter for Nanotechnology with project funding provided by The Foundation for Innovative New Diagnostics (FIND). Big parts of the code were taken from templates by Adrian Rosenbrock and from the free software OpenNoteScanner (see references below). 
+Created at London Center for Nanotechnology with project funding provided by The Foundation for Innovative New Diagnostics (FIND). Big parts of the code were taken from templates by Adrian Rosenbrock and from the free software OpenNoteScanner (see references below). 
 
 ## References:
 Big parts were taken from this two articles https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/,
