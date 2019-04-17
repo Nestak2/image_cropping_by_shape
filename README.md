@@ -3,7 +3,7 @@ A script for image cropping by detection of a particular shape
 
 1|2|3
 -|-|-
-<img src="20190417_123245.jpg" alt="Drawing" width="820"/> | <img src="NEW_20190417_123245.jpg" alt="Drawing" width="150"> | <img src="AOINEW_20190417_123245.jpg" alt="Drawing" width="70"/>
+<img src="20190417_123245.jpg" alt="Drawing" width="520"/> | <img src="NEW_20190417_123245.jpg" alt="Drawing" width="150"> | <img src="AOINEW_20190417_123245.jpg" alt="Drawing" width="70"/>
 *Version 2, detect squares in corners*
 
 The script is intended to do precise cropping of objects in images, correcting for misalignment and rotation of the objects, as well as doing a perspective transformation of the images. It might be of help for people preprocessing images for training of neural networks. 
