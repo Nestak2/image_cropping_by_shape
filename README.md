@@ -6,7 +6,7 @@ A script for image cropping by detection of a particular shape
 <img src="20190417_123245.jpg" alt="Drawing" width="520"/> | <img src="NEW_20190417_123245.jpg" alt="Drawing" width="150"> | <img src="AOINEW_20190417_123245.jpg" alt="Drawing" width="70"/>
 *Version 2, detect squares in corners*
 
-The script is intended to do precise cropping of objects in images, correcting for misalignment and rotation of the objects, as well as doing a perspective transformation of the images. It might be of help for people preprocessing images for training of neural networks. 
+The script is intended to do precise cropping of objects in images, correcting for misalignment and rotation of the objects, as well as doing a perspective transformation of the images. It might be of help for people preprocessing images for training of neural networks. The scripts takes images from a specified input folder and saves the cropped images into an output folder.  
 
 1|2|3|4|5
 -|-|-|-|- 
@@ -19,7 +19,7 @@ The script works by detecting 4 squares, that are indicating the location of an 
 The squares are intended to be obvious indicators sticking out from inhomogeneous and diverse backgrounds. This might not be necessary for most users, who might be taking pictures with their desks as background, for example. For these users, it is suggested to use the codes provided in our references
 
 ## Usage:
-Place your objects of interest on the tray. Take pictures of your object of interest, make sure that the squares are visible in the images and there is no peculiar lighting on the squares. Store your images in a folder.
+Place your objects of interest on the tray in case you are using version 2 of the code (version 1 of the code doesn't require a tray, since it is just looking for rectangular shapes). Take pictures of your object of interest, make sure that the squares are visible in the images and there is no peculiar lighting on the squares. Store your images in a folder.
 
 The script requires you to provide input in the preamble of the code - you will need to specify a file path to your input images, to an output-folder for the intermediate output and s.o.
 
